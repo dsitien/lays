@@ -1,0 +1,176 @@
+/* Reset css*/
+/*Common*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.btn {
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 25px;
+    float: right;
+    background-color: #80E2FF;
+    margin-right: 10px;
+    border-radius: 1px solid #33D1FF;
+    cursor: pointer;
+}
+
+.icon-mxh a{
+    color: black;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
+
+input[type="text"] {
+    padding-left: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.see-more{
+    background-color: white;
+    color: black;
+    margin-left: 5%;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  
+}
+.see-more:hover{
+    text-decoration: underline;
+}
+
+.header .header-menu li a{
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+.header .header-menu li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+.wrapper>div {
+    border-radius: 50%;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.position-center {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.circle-inner:nth-child(1) {
+    height: 200px;
+    width: 200px;
+    border: 12px solid #FFDDEE;
+    position: absolute;
+}
+
+.circle-inner:nth-child(2) {
+    height: 300px;
+    width: 300px;
+    border: 12px solid #FFDDEE;
+    position: absolute;
+}
+
+.circle-inner:nth-child(3) {
+    height: 400px;
+    width: 400px;
+    border: 12px solid #FFDDEE;
+    position: absolute;
+}
+
+
+
+
+.wrapper-container>* {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.lay1 {
+    background-color: #F8FFE3;
+
+}
+
+.lay1>.circle-inner {
+    border: 12px solid #E5F2C0;
+}
+
+
+.lay2 {
+    background-color: #FFE3E4;
+
+}
+
+.lay2>.circle-inner {
+    border: 12px solid #FFD4D6;
+}
+
+.lay3 {
+    background-color: #FFFBD6;
+
+}
+
+.lay3>.circle-inner {
+    border: 12px solid #F4F0C2;
+}
+
+.lay4 {
+    background-color: #FFEFE3;
+
+}
+
+.lay4>.circle-inner {
+    border: 12px solid #FADFCB;
+}
+
+.lay5 {
+    background-color: #DDF6FF;
+
+}
+
+.lay5>.circle-inner {
+    border: 12px solid #C6EAF8;
+}
+
+
+
+
+.cart {
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    font-size: 30px;
+
+}
+
+.cart:hover {
+    opacity: 0.6;
+}
+
+.features-right-description>div {
+    margin-bottom: 2%;
+}
